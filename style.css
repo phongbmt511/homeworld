@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+span:hover {
+    background-color: chartreuse;
+    color: white;
+}
+
+span {
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: cyan;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.nav_123>span {
+    display: block
+}
