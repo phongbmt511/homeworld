@@ -17,6 +17,6 @@ const navItems = [{
 
 window.onload = function() {
     for (let a of navItems) {
-        document.getElementsByClassName("menu")[0].innerHTML += `<span>` + a.name + `</span>`;
+        document.getElementsByClassName("nav_")[0].innerHTML += `<span>` + a.name + `</span>`;
     }
 }

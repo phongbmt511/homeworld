@@ -1,7 +1,7 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 span:hover {
     background-color: chartreuse;
@@ -9,13 +9,14 @@ span:hover {
 }
 
 span {
-    width: 100px;
+    width: 60px;
     height: 30px;
     margin-left: 10px;
     text-align: center;
     background-color: cyan;
     line-height: 30px;
     display: inline-block;
+    margin-left: 14px;
 }
 
 .nav_123>span {
